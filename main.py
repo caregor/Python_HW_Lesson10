@@ -39,3 +39,13 @@ Sample Output:
 #         print('NO')
 #     else:
 #         print('YES')
+#
+# Task 3
+
+# with open('source.txt', 'r') as file:
+#     tmp = file.readline()
+#     tmp_set = set()
+#     for _ in range(int(tmp)):
+#         line = file.readline()
+#         tmp_set = tmp_set.union(set(line.split()))
+#     print(len(list(tmp_set)))
